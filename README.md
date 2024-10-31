@@ -38,7 +38,7 @@ This project demonstrates real-time pose detection using [TensorFlow.js](https:/
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/pose-detection-angular.git
+    git clone https://github.com/wantanwonderland/pose-detection-angular.git
     cd pose-detection-angular
     ```
 
