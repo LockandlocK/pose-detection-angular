@@ -1,0 +1,28 @@
+<div class="container">
+  <h1>Pose Detection with MoveNet</h1>
+
+  <div class="controls-container">
+    <button class="button start-btn" (click)="startCamera()" *ngIf="!showVideo">
+      Start Camera
+    </button>
+    <button class="button stop-btn" (click)="stopCamera()" *ngIf="showVideo">
+      Stop Camera
+    </button>
+
+    <div class="toggle-container">
+      <label class="toggle-label">Enable Detection</label>
+      <input type="checkbox" [(ngModel)]="isDetecting" (change)="toggleDetection()" />
+    </div>
+  </div>
+
+  <div class="video-canvas-container">
+    <!-- Video element for camera feed -->
+    <video #videoElement autoplay playsinline [class.hidden]="!showVideo"></video>
+
+    <!-- Canvas element for pose overlay -->
+    <canvas #canvasElement></canvas>
+  </div>
+
+  <!-- Error message display -->
+  <div *ngIf="errorMessage" class="error-message">{{ errorMessage }}</div>
+</div>
