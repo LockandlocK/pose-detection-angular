@@ -1,4 +1,3 @@
-```markdown
 # Pose Detection with MoveNet in Angular
 
 This project demonstrates real-time pose detection using [TensorFlow.js](https://www.tensorflow.org/js) and the [MoveNet](https://www.tensorflow.org/lite/models/pose_estimation/overview) model in an Angular app. It utilizes a webcam feed to detect human poses and displays a skeleton overlay on the detected keypoints.
