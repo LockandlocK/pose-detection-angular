@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\pages",
+    "\\src\\app\\pages\\pose-detection",
+    "\\src\\assets",
+    "\\src\\assets\\tfjs_model"
+  ],
+  "SelectedNode": "\\src\\assets\\tfjs_model\\model.json",
+  "PreviewInSolutionExplorer": false
+}

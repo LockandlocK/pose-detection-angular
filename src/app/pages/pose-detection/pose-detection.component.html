@@ -23,6 +23,10 @@
     <canvas #canvasElement></canvas>
   </div>
 
+  <!-- Display detected pose and inference time -->
+  <h2>Detected Pose: {{ className }}</h2>
+  <p>Inference Time: {{ inferenceTime }} ms</p>
+
   <!-- Error message display -->
   <div *ngIf="errorMessage" class="error-message">{{ errorMessage }}</div>
 </div>
